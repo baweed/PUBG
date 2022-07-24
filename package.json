@@ -1,0 +1,72 @@
+{
+  "name": "sarmat",
+  "version": "0.0.2",
+  "description": "Сайт музея почвоведения ЮФУ",
+  "homepage": "https://github.com/darktau21/sarmat",
+  "bugs": "https://github.com/darktau21/sarmat/issues",
+  "private": true,
+  "scripts": {
+    "dev": "npx gulp",
+    "build": "npx gulp build"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS",
+    "PUG",
+    "Sass",
+    "Gulp",
+    "ЮФУ",
+    "SFedu",
+    "Музей"
+  ],
+  "contributors": [
+    {
+      "name": "Кирилл Науменко",
+      "email": "knaumenko@sfedu.ru",
+      "url": "https://vk.com/lwodmen"
+    },
+    {
+      "name": "Александр Барбашев",
+      "email": "abarbashev@sfedu.ru",
+      "url": "https://vk.com/sanek740"
+    },
+    {
+      "name": "Никита Мякишев",
+      "email": "miakishev@sfedu.ru",
+      "url": "https://vk.com/nikitaarh"
+    },
+    {
+      "name": "Дарья Тепина",
+      "email": "tepina@sfedu.ru"
+    },
+    {
+      "name": "Анна Овчинникова",
+      "email": "ovchi@sfedu.ru"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "eslint": "^8.11.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-js-import": "^1.0.6",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1"
+  }
+}
