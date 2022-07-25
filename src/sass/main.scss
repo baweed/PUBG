@@ -1,4 +1,4 @@
-$base-font-size:2px;
+$base-font-size:22px;
 @mixin ph {
     @media (max-width:700px) {
         @content;
@@ -9,9 +9,10 @@ $base-font-size:2px;
 }
 
 body{
-    font-size:22px;
+    font-size:$base-font-size;
     font-family: Arial;
     line-height: 1.5;
+    background: url("../img/27640f370156a0e0ae3ee9608fc8480a.jpg");
 
     @include ph {
         color:#fff;
